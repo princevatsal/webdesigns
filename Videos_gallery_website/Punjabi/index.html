@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Whatsapp Video Status</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="nav-contain">
+	<nav>
+		<div class="icon">
+			<img src="../images/Whatsapp.svg">
+		</div>
+		<div class="anchortags">
+		<a href="../index.html">Home</a>
+		<a href="../Atitude/index.html">ATITUDE</a>
+		<a href="../love/index.html">LOVE</a>
+		<a href="../funny/index.html">FUNNY</a>
+		</div>
+		<img src="../images/menu.png" alt="" class="dropdown">
+		<img src="../images/cross.png" alt="" class=" cross">
+
+	</nav>
+	<div class="nav-toggle">
+		<a href="../index.html"><img src="../images/hand.png" alt="">Home</a>
+		<a href="../Atitude/index.html"><img src="../images/hand.png" alt="">Atitude</a>
+		<a href="../love/index.html"><img src="../images/hand.png" alt="">love</a>
+		<a href="../funny/index.html"><img src="../images/hand.png" alt="">funny</a>
+	</div>
+	</div>
+	<a href="../" class="mainicon">
+		<img src="../images/abcd.png">
+        <p class="headtext">Punjabi Whatsapp Status Videos</p>
+	</a>
+	<div class="videocontent">
+		<div class="closer" id="closer1">
+			<img src="../images/video1.jpg" alt="">
+			<div class="text">
+				<h3>This is Heading Of Song</h3>
+				<p>This is description or lrysics of song . Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio repellendus expedita doloribus, distinctio vitae facere veritatis </p>
+				<a href="#">Download</a>
+			</div>
+		</div>
+		<div class="closer closer2">
+			<img src="../images/video2.jpg" alt="">
+			<div class="text">
+				<h3>This is Heading Of Song</h3>
+				<p>This is description or lrysics of song . Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio repellendus expedita doloribus, distinctio vitae facere veritatis </p>
+				<a href="#">Download</a>
+			</div>
+		</div>
+		<div class="closer">
+			<img src="../images/video3.jpg" alt="">
+			<div class="text">
+				<h3>This is Heading Of Song</h3>
+				<p>This is description or lrysics of song . Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio repellendus expedita doloribus, distinctio vitae facere veritatis </p>
+				<a href="#">Download</a>
+			</div>
+		</div>
+		<div class="closer closer2">
+			<img src="../images/video4.jpg" alt="">
+			<div class="text">
+				<h3>This is Heading Of Song</h3>
+				<p>This is description or lrysics of song . Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio repellendus expedita doloribus, distinctio vitae lorem30 facere veritatis </p>
+				<a href="#">Download</a>
+			</div>
+		</div>
+	</div>
+	
+<!-- script for nav button mobile -->
+<script type="text/javascript">
+	var menubtn=document.querySelector('.dropdown')
+	var crossbtn=document.querySelector('.cross')
+	var menu=document.querySelector('.nav-toggle')
+	menubtn.addEventListener('click',()=>{
+		menu.style.height='190px'
+		setTimeout(()=>{
+        	menubtn.style.display='none'
+			crossbtn.style.display='inline-block'
+        },400)
+	})
+	crossbtn.addEventListener('click',()=>{
+        menu.style.height='0px'
+        setTimeout(()=>{
+        	menubtn.style.display='inline-block'
+			crossbtn.style.display='none'
+        },400)
+		
+	})
+</script>
+	<script src="main.js"></script>
+</body>
+</html>
